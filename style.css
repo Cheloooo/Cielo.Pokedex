@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+#logo{
+    align-items: center;
+    display: flex;
+}
+.output{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.poke-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+    text-transform: capitalize;
+
+}
+
+.poke-types{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 60%;
+}
